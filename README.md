@@ -1,425 +1,592 @@
-<div align="center">
-# FlightStratix Aviation Tools — Flight Planning Calculators & Operations Software
-# FlightStratix
+# Free Aviation Tools & Flight Planning Calculators
 
-### Practical aviation tools for immediate answers — and a connected operations platform for everything that follows.
+Free aviation tools and calculators for pilots, flight dispatchers, charter operators and flight operations teams.
 
-[Website](https://flightstratix.com/) ·
-[Airport Lookup](https://flightstratix.com/airport-lookup) ·
-[Flight Time Calculator](https://flightstratix.com/flight-time-calculator) ·
-[Fuel Calculator](https://flightstratix.com/fuel-calculator) ·
-[Weight & Balance](https://flightstratix.com/weight-balance-calculator) ·
-[FTL Calculator](https://flightstratix.com/ftl-calculator)
+This repository brings together practical aviation calculators for flight planning, crew duty, aircraft performance and day to day operations. The tools are free to use online and are maintained by [FlightStratix](https://flightstratix.com/).
 
-[Explore the platform](https://flightstratix.com/) ·
-[Book a demo](https://flightstratix.com/book-a-demo) ·
-[Start a free trial](https://flightstratix.com/start-free-trial)
+Use the calculators directly online, read the calculation methodology, or explore the supporting aviation resources in this repository.
 
-</div>
+## Aviation Tools
+
+| Tool                                 | What it does                                                             | Use Online                                                                                  |
+| ------------------------------------ | ------------------------------------------------------------------------ | ------------------------------------------------------------------------------------------- |
+| Airport Lookup                       | Find airport ICAO and IATA codes, runway information and airport details | [Open Airport Lookup](https://flightstratix.com/airport-lookup)                             |
+| Flight Time Calculator               | Calculate estimated flight time between airports                         | [Open Flight Time Calculator](https://flightstratix.com/flight-time-calculator)             |
+| Aviation Fuel Calculator             | Calculate aviation fuel requirements and convert fuel quantities         | [Open Fuel Calculator](https://flightstratix.com/fuel-calculator)                           |
+| Aircraft Weight & Balance Calculator | Calculate aircraft weight, balance and loading information               | [Open Weight & Balance Calculator](https://flightstratix.com/weight-and-balance-calculator) |
+| EASA FTL Calculator                  | Check flight duty periods and crew duty limits                           | [Open FTL Calculator](https://flightstratix.com/ftl-calculator)                             |
+| Crosswind Calculator                 | Calculate crosswind and headwind components                              | [Open Crosswind Calculator](https://flightstratix.com/crosswind-calculator)                 |
+
+More aviation calculators and operational tools will be added as they are released.
 
 ---
 
-Flight operations rarely become difficult because a single calculation is impossible.
+## Who These Aviation Tools Are For
 
-They become difficult because airport information is in one tab, fuel planning is in another, crew duty is tracked in a spreadsheet, aircraft availability is on a shared calendar, service confirmations are buried in email, and the final invoice has to be rebuilt from all of them.
+The tools are intended for people working across private, business and commercial aviation, including:
 
-**FlightStratix brings those decisions into one connected workflow.**
+* Pilots
+* Flight dispatchers
+* Flight operations officers
+* Charter operators
+* Trip support teams
+* Corporate flight departments
+* Aviation students
+* Ground operations teams
+* Crew scheduling teams
+* Aviation professionals
 
-You can begin with a free aviation tool to answer an immediate question, then explore how the same operational data can support dispatch, scheduling, crew compliance, maintenance, quoting, service coordination, document generation, and invoicing.
+They are intended to make common aviation calculations and lookups easier to access without requiring a full flight operations system.
 
-## Free aviation tools
+---
 
-The public tools are useful on their own. No account is required, and each one is designed around a real question that pilots, dispatchers, trip support coordinators, charter teams, and flight departments handle every day.
+# Flight Planning Tools
 
-### 1. [Airport Lookup — ICAO, IATA, runway and timezone data](https://flightstratix.com/airport-lookup)
+## Flight Time Calculator
 
-Searching for an airport should not mean opening several databases and manually reconciling codes, local time, coordinates, runway details, and navigation data.
+The Flight Time Calculator estimates flight duration between two airports using route distance and aircraft speed information.
 
-The Airport Lookup tool lets you search a worldwide database of more than 60,000 airports and airfields by:
+It can be useful when:
+
+* estimating sector times
+* preparing charter quotations
+* checking initial flight feasibility
+* comparing aircraft
+* planning multi sector trips
+* estimating block time
+
+### Typical calculation
+
+A simplified flight time calculation starts with:
+
+```text
+Flight Time = Distance ÷ Ground Speed
+```
+
+Operational flight time may then include factors such as:
+
+* wind
+* routing
+* departure procedures
+* arrival procedures
+* aircraft performance
+* taxi time
+* ATC restrictions
+
+Use the online calculator:
+
+[Flight Time Calculator](https://flightstratix.com/flight-time-calculator)
+
+---
+
+## Airport Lookup
+
+Search aviation airport information using ICAO or IATA codes.
+
+Airport information can be useful when preparing:
+
+* flight plans
+* charter quotations
+* handling requests
+* fuel requests
+* passenger itineraries
+* operational flight briefs
+* airport suitability checks
+
+Depending on available data, airport records may include information such as:
 
 * ICAO code
 * IATA code
-* Airport name
-* City or location
+* airport name
+* coordinates
+* runway information
+* location
+* elevation
+* timezone
 
-It brings the basic information needed for early trip research into one place, including coordinates, elevation, timezone, runway information, and navaids.
+Use the tool:
 
-**Useful for:** route research, trip setup, airport identification, local-time checks, handling preparation, and validating airport codes before a quote or schedule is created.
-
-**Open the tool:** [flightstratix.com/airport-lookup](https://flightstratix.com/airport-lookup)
-
----
-
-### 2. [Flight Time & Distance Calculator](https://flightstratix.com/flight-time-calculator)
-
-A straight-line distance is not enough when a team also needs an estimate of flight time, block time, fuel burn, and operating cost.
-
-The Flight Time Calculator supports:
-
-* Departure and arrival airport selection
-* Multi-leg routes and waypoints
-* Alternate-airport planning
-* Great-circle distance
-* Aircraft-category or custom cruise speeds
-* Headwind and tailwind correction
-* Cruise-altitude TAS adjustment
-* Departure and arrival taxi time
-* Estimated fuel burn and operating cost
-
-This makes it useful at the beginning of a trip, when the team needs a fast and structured estimate before detailed operational planning begins.
-
-**Useful for:** initial route evaluation, charter enquiries, preliminary costing, block-time estimates, crew-duty planning, and comparing routing options.
-
-**Open the tool:** [flightstratix.com/flight-time-calculator](https://flightstratix.com/flight-time-calculator)
+[Airport Lookup](https://flightstratix.com/airport-lookup)
 
 ---
 
-### 3. [Aviation Fuel Calculator](https://flightstratix.com/fuel-calculator)
+## Crosswind Calculator
 
-Fuel calculations often move between gallons, litres, pounds, kilograms, supplier prices, reserve requirements, and cost-per-hour estimates. Repeating those conversions manually introduces avoidable errors.
+Crosswind is the component of wind acting perpendicular to the runway.
 
-The Aviation Fuel Calculator covers four practical workflows:
-
-1. **Unit conversion** between US gallons, litres, pounds, and kilograms
-2. **Flight-planning fuel** including trip, contingency, alternate, final reserve, and taxi fuel
-3. **Cost per flight** using uplift quantity and local fuel price
-4. **Cost per hour or nautical mile** using burn rate and flight parameters
-
-Supported fuel types include Jet A, Jet A-1, Avgas 100LL, and Jet B, with editable specific gravity for more accurate local calculations.
-
-**Useful for:** fuel uplift estimates, supplier-price comparison, trip budgeting, charter costing, unit conversion, and quick operational checks.
-
-**Open the tool:** [flightstratix.com/fuel-calculator](https://flightstratix.com/fuel-calculator)
-
----
-
-### 4. [Aircraft Weight & Balance Calculator](https://flightstratix.com/weight-balance-calculator)
-
-A loading plan is not complete until the takeoff and landing condition both remain inside the approved weight and centre-of-gravity envelope.
-
-The Weight & Balance Calculator provides:
-
-* Pre-configured profiles for popular general aviation aircraft
-* Basic empty weight and arm inputs
-* Pilot, passenger, baggage, cargo, and fuel stations
-* Imperial and metric units
-* Takeoff, zero-fuel, and landing calculations
-* Fuel-burn impact on landing CG
-* Visual CG-envelope plotting
-* MTOW, landing-weight, and CG-limit checks
-* Custom aircraft configuration using POH data
-
-Rather than returning only a number, the tool shows where the aircraft sits within its CG envelope and how that position changes after planned fuel burn.
-
-**Useful for:** pre-flight loading checks, training, payload planning, visualising CG movement, and testing different passenger, baggage, or fuel configurations.
-
-**Open the tool:** [flightstratix.com/weight-balance-calculator](https://flightstratix.com/weight-balance-calculator)
-
----
-
-### 5. [FTL Calculator — EASA and FAA duty limits](https://flightstratix.com/ftl-calculator)
-
-Flight time is only one part of crew legality. A proper duty assessment also needs report time, sector count, acclimatisation, WOCL encroachment, split duty, augmented crew, commander's discretion, and minimum rest.
-
-The FTL Calculator supports EASA ORO.FTL.205 and FAA Part 117 calculations, including:
-
-* Maximum Flight Duty Period
-* Report time and sector count
-* Home-base and acclimatisation status
-* WOCL encroachment
-* Split-duty credit
-* Augmented-crew extensions
-* Commander's discretion
-* Minimum rest
-* Earliest next duty time
-
-It helps turn a complex regulatory table into a fast, structured check that is easier to understand and discuss.
-
-**Useful for:** early crew-feasibility checks, duty planning, dispatcher review, training, and identifying when a more detailed operational assessment is required.
-
-**Open the tool:** [flightstratix.com/ftl-calculator](https://flightstratix.com/ftl-calculator)
-
-> **Operational note:** Public calculators are best used for estimation, reference, and preliminary planning. Dispatch-critical decisions should always be verified against approved aircraft data, current regulations, supplier data, company procedures, and authorised operational systems.
-
-## One practical workflow
-
-The tools answer individual questions. FlightStratix is designed for the point where those answers need to become one coordinated operation.
-
-| Operational question                                                   | Starting point                                                                     |
-| ---------------------------------------------------------------------- | ---------------------------------------------------------------------------------- |
-| Which airport is this, and what local information do we need?          | [Airport Lookup](https://flightstratix.com/airport-lookup)                         |
-| How far is the route, and what is the likely block time?               | [Flight Time Calculator](https://flightstratix.com/flight-time-calculator)         |
-| What fuel quantity, conversion, reserve, and cost should we consider?  | [Fuel Calculator](https://flightstratix.com/fuel-calculator)                       |
-| Is the proposed aircraft loading within limits?                        | [Weight & Balance Calculator](https://flightstratix.com/weight-balance-calculator) |
-| Is the crew duty pattern feasible?                                     | [FTL Calculator](https://flightstratix.com/ftl-calculator)                         |
-| How do we coordinate the complete trip without re-entering everything? | [FlightStratix platform](https://flightstratix.com/)                               |
-
-## From a calculation to a complete operation
-
-A calculator can answer one question. An operations platform must preserve the answer, connect it to the trip, and make it useful to every department that follows.
-
-FlightStratix connects the operational lifecycle:
+A crosswind calculation commonly uses:
 
 ```text
-Client request
-      ↓
-Multi-aircraft quote
-      ↓
-Trip and route setup
-      ↓
-Aircraft and crew scheduling
-      ↓
-FTL, MEL and maintenance feasibility
-      ↓
-Fuel, handling, catering, permits and concierge
-      ↓
-Branded operational documents
-      ↓
-Journey-log actuals
-      ↓
-Invoice and payment tracking
+Crosswind Component = Wind Speed × sin(Wind Angle)
 ```
 
-The goal is a single source of truth: the same trip record moves through the operation instead of being recreated in spreadsheets, messages, PDFs, and accounting documents.
+The headwind or tailwind component can be calculated using:
 
-## What FlightStratix helps solve
+```text
+Headwind Component = Wind Speed × cos(Wind Angle)
+```
 
-### Dispatch without scattered trip information
+This can help pilots and operations teams compare reported wind conditions against aircraft or operator limitations.
 
-[Flight Dispatch Software](https://flightstratix.com/flight-dispatch) brings the trip board, aircraft, crew, services, FTL checks, MEL status, generated documents, change acknowledgement, and shift handover into one workflow.
+Use the tool:
 
-It is built to replace the common pattern where a slot is in email, a fuel confirmation is in a message thread, the manifest is in a shared drive, and the latest crew change exists only in someone's memory.
-
-### Scheduling without hidden conflicts
-
-[Aircraft Scheduling Software](https://flightstratix.com/aircraft-scheduling-software) places trips, repositioning, maintenance, and downtime on the same fleet timeline, with Gantt, calendar, and list views.
-
-This gives operations teams a clearer way to identify overlapping trips, maintenance conflicts, unavailable aircraft, and schedule changes before they become day-of-operation problems.
-
-### Fleet records without disconnected folders
-
-[Aircraft Fleet Management Software](https://flightstratix.com/aircraft-fleet-management-software) keeps aircraft details, documents, hours, availability, maintenance status, and shareable profiles against one record per tail.
-
-External handlers, insurers, or partners can receive controlled, view-only aircraft information without being given access to the internal operation.
-
-### Maintenance and MEL that affect dispatch
-
-[Aircraft Maintenance Tracking](https://flightstratix.com/aircraft-maintenance-tracking-software) covers aircraft and component hours, cycles, scheduled events, continued-airworthiness limits, and maintenance due dates.
-
-[MEL Tracking](https://flightstratix.com/mel-tracking-software) handles Categories A, B, C, and D, calculates rectification deadlines, and connects open or overdue defects to dispatch feasibility. The purpose is not merely to record a defect; it is to ensure the defect changes the operational decision when required.
-
-### Crew management based on actual activity
-
-[Crew Management Software](https://flightstratix.com/crew-management) connects rostering, qualifications, document expiry, crew profiles, published schedules, journey logs, and duty-limit checks.
-
-Post-flight actuals can feed block hours, flight time, landing currency, reports, and invoicing instead of leaving those figures in a separate pilot log or spreadsheet.
-
-### Duty tracking beyond a simple hour counter
-
-[Flight Duty Tracking](https://flightstratix.com/flight-duty-tracking) is designed around cumulative block hours, FDP, rest, WOCL, split duty, currency, and journey-log actuals.
-
-That distinction matters: a flight-hour total does not by itself demonstrate that a crew member is rested, current, and legal for a proposed assignment.
-
-### Faster quoting with visible margin
-
-[Charter Quoting Software](https://flightstratix.com/charter-quoting-software) supports up to five aircraft options on one RFQ, with independent pricing, line-level cost and margin, historical route pricing, version control, and a client-facing acceptance workflow.
-
-The booked quote can continue into the trip instead of being copied into a separate dispatch record.
-
-### Invoicing from the trip that actually operated
-
-[Aviation Invoicing Software](https://flightstratix.com/aviation-invoicing-software) can create a draft invoice when a trip is completed, aggregate services from each leg, support multiple currencies and partial payments, and provide payment collection through Stripe.
-
-This reduces the gap between operations completing the work and finance learning that the work is ready to bill.
-
-## Built for different aviation teams
-
-FlightStratix is structured around the workflows of smaller and mid-sized private aviation operations rather than an airline-style OCC implementation.
-
-### [Trip Support Companies](https://flightstratix.com/trip-support-companies)
-
-Coordinate fuel, ground handling, catering, permits, concierge, vendors, costs, selling prices, margins, and service status for each leg of a trip.
-
-### [Charter Operators](https://flightstratix.com/charter-operators)
-
-Move from multi-aircraft enquiry to quote, crew feasibility, dispatch, service delivery, trip completion, and invoice without rebuilding the record at every stage.
-
-### [NSOPs and Private Operators](https://flightstratix.com/private-operators)
-
-Manage fleet, crew, FTL, journey logs, maintenance, MEL, compliance, documents, and dispatch in one environment.
-
-### [Corporate Flight Departments](https://flightstratix.com/flight-departments)
-
-Track aircraft, crew duty, passenger information, document expiry, trip activity, service coordination, and reporting without adopting an airline-scale platform.
-
-## Platform capabilities
-
-| Capability                                                                               | Operational problem addressed                                                             |
-| ---------------------------------------------------------------------------------------- | ----------------------------------------------------------------------------------------- |
-| [Aircraft Scheduling](https://flightstratix.com/aircraft-scheduling-software)            | Trips, repositioning, maintenance, downtime, and conflicts shown on one fleet timeline    |
-| [Fleet Management](https://flightstratix.com/aircraft-fleet-management-software)         | Aircraft records, documents, hours, expiry alerts, availability, and controlled sharing   |
-| [Maintenance Tracking](https://flightstratix.com/aircraft-maintenance-tracking-software) | TAH, TAC, component life, due events, CAMO visibility, and journey-log updates            |
-| [MEL Tracking](https://flightstratix.com/mel-tracking-software)                          | Category-based rectification deadlines and dispatch enforcement                           |
-| [Crew Management](https://flightstratix.com/crew-management)                             | Rosters, qualifications, documents, crew portal, journey logs, and feasibility checks     |
-| [Flight Duty Tracking](https://flightstratix.com/flight-duty-tracking)                   | Cumulative hours, FDP, rest, WOCL, currency, and actual-data tracking                     |
-| [Flight Dispatch](https://flightstratix.com/flight-dispatch)                             | Trip board, services, crew, aircraft, changes, documents, and shift handover              |
-| [Charter Quoting](https://flightstratix.com/charter-quoting-software)                    | Multi-aircraft options, rate cards, margin control, route history, and client acceptance  |
-| [Aviation Invoicing](https://flightstratix.com/aviation-invoicing-software)              | Quote-to-trip-to-invoice data flow, payment status, multi-currency, and Stripe collection |
-
-## Why a connected system matters
-
-Aviation teams already know how to perform the individual tasks. The recurring problem is coordination between them.
-
-A connected system helps reduce:
-
-* Re-entering the same route, aircraft, passenger, crew, vendor, and pricing data
-* Version confusion between spreadsheets, PDFs, inboxes, and group chats
-* Aircraft or crew conflicts discovered too late
-* Expired documents found during dispatch instead of before it
-* Maintenance or MEL information being separated from the trip decision
-* Service confirmations being lost between shifts
-* Completed work waiting to be invoiced
-* Managers lacking a current view of what is confirmed, pending, blocked, or overdue
-
-The value is not simply having more modules. It is having the modules work from the same operational record.
-
-## Product comparisons
-
-For teams evaluating established aviation platforms, FlightStratix provides dedicated comparison pages focused on operational fit:
-
-* [FlightStratix vs Leon Software](https://flightstratix.com/vs/leon-software)
-* [FlightStratix vs FL3XX](https://flightstratix.com/vs/fl3xx)
-* [FlightStratix vs myairops](https://flightstratix.com/vs/myairops)
-
-These pages are most useful when the decision is not “Which platform has the longest feature list?” but “Which platform matches the scale, workflow, implementation capacity, and day-to-day problems of this operation?”
-
-## Learn more
-
-* [About FlightStratix](https://flightstratix.com/about-us)
-* [Aviation operations blog and guides](https://flightstratix.com/blogs)
-* [Customer support](https://flightstratix.com/support)
-* [Book a tailored demo](https://flightstratix.com/book-a-demo)
-* [Request a 30-day free trial](https://flightstratix.com/start-free-trial)
+[Crosswind Calculator](https://flightstratix.com/crosswind-calculator)
 
 ---
 
-<details>
-<summary><strong>Complete FlightStratix public page directory</strong></summary>
+# Aircraft Calculators
 
-### Main pages
+## Aircraft Weight & Balance Calculator
 
-* [FlightStratix home](https://flightstratix.com/)
-* [About FlightStratix](https://flightstratix.com/about-us)
-* [Blogs and resources](https://flightstratix.com/blogs)
-* [Customer support and contact](https://flightstratix.com/support)
-* [Book a demo](https://flightstratix.com/book-a-demo)
-* [Start a free trial](https://flightstratix.com/start-free-trial)
+Aircraft weight and balance calculations help determine whether an aircraft remains within approved loading limits.
 
-### Free tools
+A typical calculation considers:
 
-* [Airport Lookup](https://flightstratix.com/airport-lookup)
-* [Aircraft Weight & Balance Calculator](https://flightstratix.com/weight-balance-calculator)
-* [FTL Calculator](https://flightstratix.com/ftl-calculator)
-* [Aviation Fuel Calculator](https://flightstratix.com/fuel-calculator)
-* [Flight Time & Distance Calculator](https://flightstratix.com/flight-time-calculator)
+* aircraft basic empty weight
+* crew
+* passengers
+* baggage
+* cargo
+* fuel
+* individual station arms
+* moments
+* centre of gravity
 
-### Built for
+The basic relationship is:
 
-* [Trip Support Companies](https://flightstratix.com/trip-support-companies)
-* [Charter Operators](https://flightstratix.com/charter-operators)
-* [NSOPs and Private Operators](https://flightstratix.com/private-operators)
-* [Corporate Flight Departments](https://flightstratix.com/flight-departments)
+```text
+Moment = Weight × Arm
+```
 
-### Capabilities
+Centre of gravity can then be calculated from:
 
-* [Aircraft Scheduling Software](https://flightstratix.com/aircraft-scheduling-software)
-* [Aircraft Fleet Management Software](https://flightstratix.com/aircraft-fleet-management-software)
-* [Aircraft Maintenance Tracking Software](https://flightstratix.com/aircraft-maintenance-tracking-software)
-* [MEL Tracking Software](https://flightstratix.com/mel-tracking-software)
-* [Crew Management and Scheduling Software](https://flightstratix.com/crew-management)
-* [Flight Duty Tracking](https://flightstratix.com/flight-duty-tracking)
-* [Flight Dispatch Software](https://flightstratix.com/flight-dispatch)
-* [Charter Quoting Software](https://flightstratix.com/charter-quoting-software)
-* [Aviation Invoicing Software](https://flightstratix.com/aviation-invoicing-software)
+```text
+CG = Total Moment ÷ Total Weight
+```
 
-### Comparison pages
+Actual loading limits depend on the aircraft type, approved aircraft documentation and operator procedures.
 
-* [FlightStratix vs Leon Software](https://flightstratix.com/vs/leon-software)
-* [FlightStratix vs FL3XX](https://flightstratix.com/vs/fl3xx)
-* [FlightStratix vs myairops](https://flightstratix.com/vs/myairops)
+Use the tool:
 
-### Aviation operations articles and guides
-
-#### Operations
-
-* [Why Spreadsheets Are Killing Your Flight Operations](https://flightstratix.com/blogs/why-spreadsheets-are-killing-your-flight-operations)
-* [Best Trip Support Software for Private Aviation in 2026](https://flightstratix.com/blogs/best-trip-support-software-private-aviation-2026)
-* [From Spreadsheets to a Real Ops Platform](https://flightstratix.com/blogs/small-aviation-operator-switching-from-spreadsheets)
-* [Why Shareable Aircraft Profiles Matter](https://flightstratix.com/blogs/shareable-aircraft-profiles-private-aviation)
-* [How to Choose Flight Operations Software as a Small Operator](https://flightstratix.com/blogs/how-to-choose-flight-operations-software-small-operator)
-* [Vendor Management in Private Aviation](https://flightstratix.com/blogs/private-aviation-vendor-management-best-practices)
-* [Why Daily Handover Logs Are Essential](https://flightstratix.com/blogs/daily-handover-logs-private-aviation-operations)
-* [How Flight Operations Software Connects Dispatch, Trip Support and Scheduling](https://flightstratix.com/blogs/integrated-flight-operations-software)
-
-#### Trip support
-
-* [What Is a Fuel Release in Private Aviation?](https://flightstratix.com/blogs/what-is-a-fuel-release-private-aviation)
-* [The Complete Guide to Private Aviation Trip Support Operations](https://flightstratix.com/blogs/private-aviation-trip-support-operations-guide)
-* [How to Streamline Service Order Management](https://flightstratix.com/blogs/how-to-streamline-service-orders-private-aviation)
-* [What Is Trip Support in Private Aviation?](https://flightstratix.com/blogs/what-is-trip-support-private-aviation)
-* [Ground Handling Management for Private Jets](https://flightstratix.com/blogs/ground-handling-management-private-jets)
-* [How Trip Support Software Manages Fuel, Permits, Handling and Concierge](https://flightstratix.com/blogs/trip-support-software-fuel-permits-handling-concierge)
-
-#### Compliance
-
-* [Document Expiry Tracking Best Practices](https://flightstratix.com/blogs/document-expiry-tracking-best-practices)
-* [Crew Compliance Tracking in Private Aviation](https://flightstratix.com/blogs/crew-compliance-tracking-private-aviation)
-
-#### Cost management
-
-* [How Fuel Price Comparison Can Save Thousands](https://flightstratix.com/blogs/fuel-price-comparison-save-thousands)
-* [The Hidden Cost of Enterprise Aviation Software](https://flightstratix.com/blogs/hidden-cost-enterprise-aviation-software)
-* [Private Aviation Invoicing and Quoting Best Practices](https://flightstratix.com/blogs/private-aviation-invoicing-quoting-best-practices)
-
-#### Comparisons
-
-* [FlightStratix vs Leon Software — Detailed Article](https://flightstratix.com/blogs/flightstratix-vs-leon-software)
-* [FlightStratix vs FL3XX — Detailed Article](https://flightstratix.com/blogs/flightstratix-vs-fl3xx)
-* [Private Aviation Software Comparison 2026](https://flightstratix.com/blogs/private-aviation-software-comparison-2026)
-
-### Policies
-
-* [Privacy Policy](https://flightstratix.com/privacy-policy)
-* [Terms of Service](https://flightstratix.com/terms-of-service)
-* [Cancellation Policy](https://flightstratix.com/cancellation-policy)
-* [Cookie Policy](https://flightstratix.com/cookie-policy)
-* [Acceptable Use Policy](https://flightstratix.com/acceptable-use-policy)
-
-</details>
+[Aircraft Weight & Balance Calculator](https://flightstratix.com/weight-and-balance-calculator)
 
 ---
 
-<div align="center">
+# Aviation Fuel Tools
 
-### Start with a tool. Continue with the complete operation.
+## Aviation Fuel Calculator
 
-[Open Airport Lookup](https://flightstratix.com/airport-lookup) ·
-[Explore FlightStratix](https://flightstratix.com/) ·
-[Book a demo](https://flightstratix.com/book-a-demo) ·
-[Start a free trial](https://flightstratix.com/start-free-trial)
+The Aviation Fuel Calculator helps with common fuel calculations and fuel quantity conversions used during flight planning.
 
-</div>
+Typical aviation fuel planning may account for:
 
-<!--
-Optional repository image:
-1. Add a current product screenshot as assets/flightstratix-dashboard.png
-2. Place this block below the opening links:
+* taxi fuel
+* trip fuel
+* contingency fuel
+* alternate fuel
+* final reserve fuel
+* additional fuel
+* discretionary fuel
 
-<p align="center">
-  <a href="https://flightstratix.com/">
-    <img src="./assets/flightstratix-dashboard.png"
-         alt="FlightStratix flight operations management dashboard"
-         width="100%">
-  </a>
-</p>
--->
+Exact fuel planning requirements depend on aircraft type, operator procedures, jurisdiction and applicable regulations.
+
+The calculator should be used as a planning aid and should not replace an operator's approved fuel policy or aircraft documentation.
+
+Use the tool:
+
+[Aviation Fuel Calculator](https://flightstratix.com/fuel-calculator)
+
+---
+
+# Crew & Flight Duty Tools
+
+## EASA FTL Calculator
+
+Flight Time Limitation calculations help operators determine whether planned crew duties remain within applicable duty and rest requirements.
+
+FTL calculations may depend on factors including:
+
+* duty start time
+* number of sectors
+* acclimatisation
+* reporting time
+* planned FDP
+* extensions
+* split duty
+* standby
+* previous duties
+* rest
+* disruptive schedules
+
+Because flight duty regulations contain conditions and exceptions, users should always check the current applicable regulations and their operator approved scheme.
+
+Use the calculator:
+
+[EASA FTL Calculator](https://flightstratix.com/ftl-calculator)
+
+---
+
+# Calculation Methodology
+
+We want the calculations behind these tools to be understandable rather than hidden behind a result.
+
+Documentation for individual tools can be stored inside the repository:
+
+```text
+docs/
+├── flight-time-calculator.md
+├── airport-lookup.md
+├── aviation-fuel-calculator.md
+├── weight-and-balance.md
+├── easa-ftl-calculator.md
+└── crosswind-calculator.md
+```
+
+Each methodology page should explain:
+
+1. What the calculator does
+2. Required inputs
+3. Formula or calculation method
+4. Assumptions
+5. Worked examples
+6. Limitations
+7. Regulatory references where applicable
+8. Date of the latest technical review
+
+---
+
+# Worked Examples
+
+## Flight Time Example
+
+Example:
+
+```text
+Distance: 600 NM
+Average Ground Speed: 400 KT
+
+Estimated Flight Time:
+600 ÷ 400 = 1.5 hours
+
+Estimated Flight Time:
+1 hour 30 minutes
+```
+
+Real flight time can differ because of winds, ATC routing, climb, descent and airport procedures.
+
+---
+
+## Crosswind Example
+
+Example:
+
+```text
+Runway Heading: 090°
+Wind: 120° / 20 KT
+
+Difference:
+30°
+
+Crosswind:
+20 × sin(30°)
+
+Crosswind:
+10 KT
+```
+
+The example is for explanation only. Operational decisions should use current weather information, approved aircraft limitations and operator procedures.
+
+---
+
+## Weight & Balance Example
+
+Example:
+
+```text
+Weight: 1,000 kg
+Arm: 2.5 m
+
+Moment:
+1,000 × 2.5
+
+Moment:
+2,500 kg·m
+```
+
+Individual moments are combined to calculate the aircraft's total moment and centre of gravity.
+
+---
+
+# Regulatory & Technical Sources
+
+Where a calculator relates to regulated flight operations, methodology should refer directly to current primary sources.
+
+Useful authorities include:
+
+## EASA
+
+European Union Aviation Safety Agency
+
+Relevant areas can include:
+
+* Air Operations
+* ORO.FTL
+* Certification Specifications for Flight Time Limitations
+
+Official website:
+
+https://www.easa.europa.eu/
+
+## FAA
+
+Federal Aviation Administration
+
+Relevant references may include:
+
+* Federal Aviation Regulations
+* Part 91
+* Part 117
+* Part 121
+* Part 135
+* Aeronautical Information Manual
+* Advisory Circulars
+
+Official website:
+
+https://www.faa.gov/
+
+## ICAO
+
+International Civil Aviation Organization
+
+ICAO publishes international Standards and Recommended Practices covering many areas of international aviation.
+
+Official website:
+
+https://www.icao.int/
+
+Always confirm that the current version of the applicable regulation or publication is being used.
+
+---
+
+# Safety Notice
+
+These aviation tools are provided for planning, educational and operational support purposes.
+
+They do not replace:
+
+* approved aircraft flight manuals
+* operator manuals
+* operational control procedures
+* regulatory requirements
+* approved FTL schemes
+* official weather information
+* NOTAMs
+* flight planning systems
+* pilot or dispatcher judgement
+
+Users remain responsible for checking calculations against the documentation, regulations and procedures applicable to their operation.
+
+If you identify a calculation issue, outdated regulation or incorrect assumption, please open a GitHub issue.
+
+---
+
+# Report an Issue
+
+Aviation regulations, data and operational requirements change.
+
+If you find:
+
+* incorrect calculations
+* outdated regulatory information
+* incorrect airport information
+* broken links
+* unclear methodology
+* calculation edge cases
+
+please create an issue in this repository.
+
+When reporting a calculation issue, include where possible:
+
+```text
+Tool:
+Input:
+Expected result:
+Actual result:
+Regulation or reference:
+Additional notes:
+```
+
+This makes the issue easier to reproduce and review.
+
+---
+
+# Contributing
+
+Contributions and technical feedback are welcome.
+
+You can contribute by:
+
+* reporting calculation problems
+* suggesting aviation tools
+* improving documentation
+* providing test cases
+* identifying outdated references
+* suggesting formula corrections
+* improving worked examples
+* submitting code improvements
+
+Before making a major change, please open an issue explaining what you would like to change.
+
+---
+
+# Planned Aviation Tools
+
+Possible additions to the collection include:
+
+## Flight Planning
+
+* Great Circle Distance Calculator
+* Climb Calculator
+* Descent Calculator
+* Top of Descent Calculator
+* True Airspeed Calculator
+* Ground Speed Calculator
+* Wind Correction Calculator
+
+## Weather
+
+* METAR Decoder
+* TAF Decoder
+* Density Altitude Calculator
+* Pressure Altitude Calculator
+* Cloud Base Calculator
+
+## Crew
+
+* Crew Duty Calculator
+* Rest Calculator
+* FAA Part 117 Calculator
+* Duty Period Calculator
+
+## Aircraft
+
+* Aircraft Registration Lookup
+* Fuel Conversion Calculator
+* Payload Calculator
+* Takeoff Performance Reference Tools
+
+## Dispatch & Operations
+
+* NOTAM Decoder
+* ICAO Flight Plan Tools
+* Airport Code Converter
+* UTC Time Converter
+* Aviation Unit Converter
+
+If there is an aviation calculator you would like to see added, open an issue.
+
+---
+
+# Repository Structure
+
+The repository can be organised as follows:
+
+```text
+free-aviation-tools/
+│
+├── README.md
+├── LICENSE
+├── CONTRIBUTING.md
+│
+├── calculators/
+│   ├── crosswind/
+│   ├── flight-time/
+│   ├── fuel/
+│   └── aviation-units/
+│
+├── docs/
+│   ├── flight-time-calculator.md
+│   ├── airport-lookup.md
+│   ├── aviation-fuel-calculator.md
+│   ├── weight-and-balance.md
+│   ├── easa-ftl-calculator.md
+│   └── crosswind-calculator.md
+│
+├── examples/
+│   ├── flight-time-example.md
+│   ├── crosswind-example.md
+│   └── weight-and-balance-example.md
+│
+└── tests/
+```
+
+---
+
+# Why This Repository Exists
+
+Aviation operations teams still carry out a surprising number of everyday calculations using spreadsheets, manual formulas and disconnected websites.
+
+We wanted to make commonly used aviation calculations easier to access and easier to understand.
+
+Rather than hiding how a result is produced, the goal of this repository is to gradually document the formulas, assumptions, examples and references behind the tools.
+
+The online calculators remain free to use.
+
+---
+
+# About FlightStratix
+
+[FlightStratix](https://flightstratix.com/) is an aviation operations platform for charter operators, trip support companies, FBOs and flight departments.
+
+FlightStratix connects operational and commercial information around the trip, including areas such as:
+
+* trip management
+* aircraft scheduling
+* crew scheduling
+* FTL checks
+* quotations
+* services
+* passengers
+* documents
+* invoicing
+* operational records
+
+The software platform is separate from the free aviation tools in this repository.
+
+Learn more:
+
+[FlightStratix Aviation Operations Platform](https://flightstratix.com/)
+
+---
+
+# Maintained By
+
+**FlightStratix**
+
+Aviation operations software and free aviation tools for flight operations teams.
+
+Website:
+https://flightstratix.com/
+
+GitHub issues should be used for calculator bugs, technical questions and contribution requests.
+
+---
+
+# License
+
+Add the appropriate open source licence for any code published in this repository.
+
+For example:
+
+```text
+MIT License
+```
+
+Individual aviation data sources may have their own licensing or usage conditions and should be documented separately where applicable.
+
+---
+
+⭐ If these free aviation tools are useful to you, consider starring the repository.
+
+It helps other pilots, dispatchers and aviation professionals discover the project.
