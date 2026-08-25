@@ -1,42 +1,29 @@
 # Free Aviation Tools & Flight Planning Calculators
 
-Free aviation tools and calculators for pilots, flight dispatchers, charter operators and flight operations teams.
+A collection of **free aviation tools and calculators for pilots, flight dispatchers, charter operators, flight operations teams, aircraft owners and aviation professionals**.
 
-This repository brings together practical aviation calculators for flight planning, crew duty, aircraft performance and day to day operations. The tools are free to use online and are maintained by [FlightStratix](https://flightstratix.com/).
+Use 14 free online aviation tools for flight planning, aircraft calculations, weather, NOTAMs, crew duty, operating costs, charter pricing, quotations and invoicing.
 
-Use the calculators directly online, read the calculation methodology, or explore the supporting aviation resources in this repository.
+No registration required for the tools.
 
-## Aviation Tools
+## Free Aviation Tools
 
-| Tool                                 | What it does                                                             | Use Online                                                                                  |
-| ------------------------------------ | ------------------------------------------------------------------------ | ------------------------------------------------------------------------------------------- |
-| Airport Lookup                       | Find airport ICAO and IATA codes, runway information and airport details | [Open Airport Lookup](https://flightstratix.com/airport-lookup)                             |
-| Flight Time Calculator               | Calculate estimated flight time between airports                         | [Open Flight Time Calculator](https://flightstratix.com/flight-time-calculator)             |
-| Aviation Fuel Calculator             | Calculate aviation fuel requirements and convert fuel quantities         | [Open Fuel Calculator](https://flightstratix.com/fuel-calculator)                           |
-| Aircraft Weight & Balance Calculator | Calculate aircraft weight, balance and loading information               | [Open Weight & Balance Calculator](https://flightstratix.com/weight-and-balance-calculator) |
-| EASA FTL Calculator                  | Check flight duty periods and crew duty limits                           | [Open FTL Calculator](https://flightstratix.com/ftl-calculator)                             |
-| Crosswind Calculator                 | Calculate crosswind and headwind components                              | [Open Crosswind Calculator](https://flightstratix.com/crosswind-calculator)                 |
-
-More aviation calculators and operational tools will be added as they are released.
-
----
-
-## Who These Aviation Tools Are For
-
-The tools are intended for people working across private, business and commercial aviation, including:
-
-* Pilots
-* Flight dispatchers
-* Flight operations officers
-* Charter operators
-* Trip support teams
-* Corporate flight departments
-* Aviation students
-* Ground operations teams
-* Crew scheduling teams
-* Aviation professionals
-
-They are intended to make common aviation calculations and lookups easier to access without requiring a full flight operations system.
+| Aviation Tool                           | What It Does                                                                                             | Use Online                                                                 |
+| --------------------------------------- | -------------------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------- |
+| ✈️ Flight Time Calculator               | Calculate flight distance, estimated air time, block time, fuel burn and operating cost between airports | [Open Tool](https://flightstratix.com/flight-time-calculator)              |
+| ⛽ Aviation Fuel Calculator              | Convert aviation fuel quantities and calculate fuel requirements, fuel burn and cost                     | [Open Tool](https://flightstratix.com/fuel-calculator)                     |
+| 👨‍✈️ FTL Calculator                    | Calculate EASA and FAA flight duty period limits, rest and crew duty information                         | [Open Tool](https://flightstratix.com/ftl-calculator)                      |
+| ⚖️ Weight & Balance Calculator          | Calculate aircraft weight, centre of gravity and loading conditions                                      | [Open Tool](https://flightstratix.com/weight-balance-calculator)           |
+| 📈 Climb & Descent Calculator           | Calculate climb gradients, descent rates and top of descent                                              | [Open Tool](https://flightstratix.com/climb-descent-calculator)            |
+| 💨 Crosswind Calculator                 | Calculate crosswind, headwind and tailwind components                                                    | [Open Tool](https://flightstratix.com/crosswind-calculator)                |
+| 🧭 Online E6B Calculator                | Wind triangle, speed, distance, time, fuel, density altitude, TAS and aviation conversions               | [Open Tool](https://flightstratix.com/e6b-calculator)                      |
+| 💰 Aircraft Operating Cost Calculator   | Calculate aircraft variable costs, fixed costs and cost per flight hour                                  | [Open Tool](https://flightstratix.com/aircraft-operating-cost-calculator)  |
+| 🛩️ Private Jet Charter Cost Calculator | Estimate private jet charter costs by route and aircraft category                                        | [Open Tool](https://flightstratix.com/private-jet-charter-cost-calculator) |
+| 📄 Charter Quote Generator              | Create professional aviation charter quotations                                                          | [Open Tool](https://flightstratix.com/charter-quote-generator)             |
+| 🧾 Charter Invoice Generator            | Create aviation charter invoices and downloadable invoice documents                                      | [Open Tool](https://flightstratix.com/charter-invoice-generator)           |
+| 🚧 NOTAM Decoder                        | Decode aviation NOTAMs into plain English                                                                | [Open Tool](https://flightstratix.com/notam-decoder)                       |
+| 🌦️ METAR & TAF Decoder                 | Decode live aviation weather, METAR and TAF reports                                                      | [Open Tool](https://flightstratix.com/aviation-weather-metar-taf-decoder)  |
+| 🌍 Airport Lookup                       | Search airport ICAO codes, IATA codes, runways, navaids and airport information                          | [Open Tool](https://flightstratix.com/airport-lookup)                      |
 
 ---
 
@@ -44,113 +31,342 @@ They are intended to make common aviation calculations and lookups easier to acc
 
 ## Flight Time Calculator
 
-The Flight Time Calculator estimates flight duration between two airports using route distance and aircraft speed information.
+Calculate estimated **flight time, great circle distance and block time between airports worldwide**.
 
-It can be useful when:
+The calculator supports:
 
-* estimating sector times
-* preparing charter quotations
-* checking initial flight feasibility
-* comparing aircraft
-* planning multi sector trips
-* estimating block time
+* Departure and arrival airports
+* Multi leg routes
+* Airport waypoints
+* Alternate airports
+* Aircraft categories
+* Custom cruise speed
+* Cruise altitude
+* Wind correction
+* Departure taxi time
+* Arrival taxi time
+* Estimated fuel burn
+* Fuel cost
+* Operating cost estimates
 
-### Typical calculation
+Great circle distance is calculated using the coordinates of the selected airports.
 
-A simplified flight time calculation starts with:
+A basic flight time calculation can be represented as:
 
 ```text
 Flight Time = Distance ÷ Ground Speed
 ```
 
-Operational flight time may then include factors such as:
+Actual flight times can differ because of wind, ATC routing, climb and descent profiles, aircraft performance and operational restrictions.
 
-* wind
-* routing
-* departure procedures
-* arrival procedures
-* aircraft performance
-* taxi time
-* ATC restrictions
-
-Use the online calculator:
-
-[Flight Time Calculator](https://flightstratix.com/flight-time-calculator)
+[Use the Flight Time Calculator →](https://flightstratix.com/flight-time-calculator)
 
 ---
 
-## Airport Lookup
+## Online E6B Flight Computer
 
-Search aviation airport information using ICAO or IATA codes.
+Use a digital **E6B aviation flight computer** directly in your browser.
 
-Airport information can be useful when preparing:
+The E6B calculator includes:
 
-* flight plans
-* charter quotations
-* handling requests
-* fuel requests
-* passenger itineraries
-* operational flight briefs
-* airport suitability checks
+### Wind Triangle
 
-Depending on available data, airport records may include information such as:
+Calculate:
 
-* ICAO code
-* IATA code
-* airport name
-* coordinates
-* runway information
-* location
-* elevation
-* timezone
+* Wind Correction Angle
+* True Heading
+* Magnetic Heading
+* Ground Speed
+* Headwind component
+* Crosswind component
 
-Use the tool:
+### Speed, Distance & Time
 
-[Airport Lookup](https://flightstratix.com/airport-lookup)
+Calculate any missing value from:
+
+```text
+Time = Distance ÷ Speed
+
+Distance = Speed × Time
+
+Speed = Distance ÷ Time
+```
+
+### Fuel Planning
+
+Calculate:
+
+* Fuel required
+* Fuel burn
+* Flight endurance
+* Remaining fuel
+
+### Density Altitude
+
+Calculate:
+
+* Pressure altitude
+* ISA temperature
+* ISA deviation
+* Density altitude
+* True airspeed
+
+### Aviation Unit Conversions
+
+Convert common aviation units including:
+
+* Knots
+* MPH
+* km/h
+* Nautical miles
+* Statute miles
+* Kilometres
+* Feet
+* Metres
+* Flight levels
+* US gallons
+* Imperial gallons
+* Litres
+* Pounds
+* Kilograms
+* Celsius
+* Fahrenheit
+
+[Use the Online E6B Calculator →](https://flightstratix.com/e6b-calculator)
 
 ---
+
+# Climb & Descent Tools
+
+## Climb Gradient & Top of Descent Calculator
+
+Calculate climb and descent information used during flight planning.
+
+The tool includes:
+
+### Climb Gradient
+
+Convert between:
+
+* Percentage gradient
+* Feet per nautical mile
+* Climb angle
+* Feet per minute
+
+### Required Gradient
+
+Calculate the climb performance required to meet a target altitude or obstacle clearance requirement.
+
+### Top of Descent
+
+Estimate where descent should begin based on:
+
+* Current altitude
+* Target altitude
+* Descent angle
+* Ground speed
+
+### Descent Rate
+
+Calculate required vertical speed for a planned descent profile.
+
+A common relationship is:
+
+```text
+Vertical Speed = Feet per NM × Ground Speed ÷ 60
+```
+
+[Use the Climb & Descent Calculator →](https://flightstratix.com/climb-descent-calculator)
+
+---
+
+# Wind Tools
 
 ## Crosswind Calculator
 
-Crosswind is the component of wind acting perpendicular to the runway.
+Calculate **crosswind, headwind and tailwind components** for any runway and wind combination.
 
-A crosswind calculation commonly uses:
-
-```text
-Crosswind Component = Wind Speed × sin(Wind Angle)
-```
-
-The headwind or tailwind component can be calculated using:
+Crosswind component:
 
 ```text
-Headwind Component = Wind Speed × cos(Wind Angle)
+Crosswind = Wind Speed × sin(Wind Direction − Runway Heading)
 ```
 
-This can help pilots and operations teams compare reported wind conditions against aircraft or operator limitations.
+Headwind component:
 
-Use the tool:
+```text
+Headwind = Wind Speed × cos(Wind Direction − Runway Heading)
+```
 
-[Crosswind Calculator](https://flightstratix.com/crosswind-calculator)
+The calculator includes:
+
+* Runway heading
+* Wind direction
+* Wind speed
+* Gust speed
+* Crosswind component
+* Headwind component
+* Tailwind component
+* Wind angle
+* Airport mode
+* METAR wind data
+* Runway comparison
+
+Airport mode can use current airport weather information to compare wind components across available runways.
+
+[Use the Crosswind Calculator →](https://flightstratix.com/crosswind-calculator)
 
 ---
 
-# Aircraft Calculators
+# Aviation Weather Tools
+
+## METAR & TAF Decoder
+
+Get and decode **live aviation weather information** for airports worldwide.
+
+Enter an ICAO airport code to retrieve and decode METAR and TAF information.
+
+The aviation weather tool includes:
+
+### METAR Decoder
+
+Decode:
+
+* Wind
+* Gusts
+* Visibility
+* Weather
+* Cloud layers
+* Temperature
+* Dew point
+* QNH
+* Altimeter setting
+
+### Flight Category
+
+Identify:
+
+* VFR
+* MVFR
+* IFR
+* LIFR
+
+### TAF Decoder
+
+Decode forecast groups including:
+
+* FM
+* TEMPO
+* BECMG
+* PROB30
+* PROB40
+
+### Additional Calculations
+
+The tool can also show:
+
+* Relative humidity
+* Density altitude
+* Temperature and dew point spread
+* Runway crosswind components
+
+Weather data is retrieved from NOAA Aviation Weather.
+
+[Use the METAR & TAF Decoder →](https://flightstratix.com/aviation-weather-metar-taf-decoder)
+
+---
+
+# NOTAM Tools
+
+## Free NOTAM Decoder
+
+Paste an aviation NOTAM and convert it into a clearer, human readable explanation.
+
+The decoder can identify:
+
+* NOTAM structure
+* ICAO abbreviations
+* Q codes
+* Affected airport
+* Runways
+* Taxiways
+* Navaids
+* Airspace
+* Procedures
+* Validity dates
+* Operational impact
+
+It also provides a plain English summary intended to make long or heavily abbreviated NOTAMs easier to review.
+
+Example input:
+
+```text
+A0234/26 NOTAMN
+```
+
+The tool analyses the NOTAM structure and explains its components.
+
+Always verify operational NOTAM information through an official AIS, flight planning provider or relevant aviation authority before flight.
+
+[Use the NOTAM Decoder →](https://flightstratix.com/notam-decoder)
+
+---
+
+# Airport Tools
+
+## Airport Lookup
+
+Search airport data using ICAO codes.
+
+The FlightStratix airport database contains information for airports and airfields worldwide.
+
+Available information can include:
+
+* ICAO code
+* IATA code
+* Airport name
+* City
+* Country
+* Latitude
+* Longitude
+* Elevation
+* Timezone
+* Runways
+* Frequencies
+* Navaids
+
+Airport information can be useful when preparing:
+
+* Flight plans
+* Charter quotations
+* Handling requests
+* Fuel requests
+* Passenger itineraries
+* Operational briefs
+* Trip planning
+
+[Use Airport Lookup →](https://flightstratix.com/airport-lookup)
+
+---
+
+# Aircraft Tools
 
 ## Aircraft Weight & Balance Calculator
 
-Aircraft weight and balance calculations help determine whether an aircraft remains within approved loading limits.
+Calculate aircraft loading and centre of gravity.
 
-A typical calculation considers:
+The calculator can account for:
 
-* aircraft basic empty weight
-* crew
-* passengers
-* baggage
-* cargo
-* fuel
-* individual station arms
-* moments
-* centre of gravity
+* Basic empty weight
+* Pilot
+* Copilot
+* Passengers
+* Baggage
+* Cargo
+* Fuel
+* Fuel burn
+* Station arms
+* Moments
 
 The basic relationship is:
 
@@ -158,17 +374,64 @@ The basic relationship is:
 Moment = Weight × Arm
 ```
 
-Centre of gravity can then be calculated from:
+Centre of gravity:
 
 ```text
 CG = Total Moment ÷ Total Weight
 ```
 
-Actual loading limits depend on the aircraft type, approved aircraft documentation and operator procedures.
+The tool can calculate both **takeoff and landing conditions** after accounting for planned fuel burn.
 
-Use the tool:
+Preconfigured profiles are currently available for aircraft including:
 
-[Aircraft Weight & Balance Calculator](https://flightstratix.com/weight-and-balance-calculator)
+* Cessna 172S
+* Cessna 172M
+* Cessna 152
+* Piper PA 28 181
+* Cirrus SR22
+* Cessna 182T
+* Beechcraft A36 Bonanza
+
+Custom aircraft data can also be entered.
+
+Always verify loading information against the approved POH, Aircraft Flight Manual and current aircraft specific weight and balance records.
+
+[Use the Weight & Balance Calculator →](https://flightstratix.com/weight-balance-calculator)
+
+---
+
+# Crew & Duty Tools
+
+## EASA & FAA FTL Calculator
+
+Calculate **Flight Duty Period and crew duty limits** for flight operations.
+
+The FTL calculator currently covers calculations associated with:
+
+* EASA ORO.FTL
+* FAA Part 117
+
+Inputs and calculations include:
+
+* Report time
+* Number of sectors
+* Crew acclimatisation
+* Flight Duty Period
+* Maximum FDP
+* WOCL
+* Minimum rest
+* Split duty
+* Augmented crew
+* Extensions
+* Commander's discretion
+
+The calculator can also display the corresponding FDP reference tables.
+
+FTL requirements can vary based on regulation, operation, approved operator scheme and company restrictions.
+
+Always verify calculations against the latest applicable regulation and the operator's approved Operations Manual or FTL scheme.
+
+[Use the FTL Calculator →](https://flightstratix.com/ftl-calculator)
 
 ---
 
@@ -176,321 +439,415 @@ Use the tool:
 
 ## Aviation Fuel Calculator
 
-The Aviation Fuel Calculator helps with common fuel calculations and fuel quantity conversions used during flight planning.
+Calculate aviation fuel quantities, conversions and estimated costs.
 
-Typical aviation fuel planning may account for:
+Supported aviation fuels include:
 
-* taxi fuel
-* trip fuel
-* contingency fuel
-* alternate fuel
-* final reserve fuel
-* additional fuel
-* discretionary fuel
+* Jet A
+* Jet A1
+* Avgas 100LL
+* Jet B
 
-Exact fuel planning requirements depend on aircraft type, operator procedures, jurisdiction and applicable regulations.
+### Fuel Conversion
 
-The calculator should be used as a planning aid and should not replace an operator's approved fuel policy or aircraft documentation.
+Convert between:
 
-Use the tool:
+* US gallons
+* Litres
+* Pounds
+* Kilograms
 
-[Aviation Fuel Calculator](https://flightstratix.com/fuel-calculator)
+### Fuel Planning
+
+Build an estimated fuel requirement using items such as:
+
+* Taxi fuel
+* Trip fuel
+* Contingency fuel
+* Alternate fuel
+* Final reserve fuel
+* Additional fuel
+
+### Fuel Cost
+
+Calculate:
+
+* Total fuel cost
+* Cost per gallon
+* Cost per litre
+* Cost per pound
+* Cost per kilogram
+* Cost per flight
+* Cost per flight hour
+* Cost per nautical mile
+
+Fuel density varies with fuel specification and temperature. Operational calculations should use aircraft and supplier specific data where required.
+
+[Use the Aviation Fuel Calculator →](https://flightstratix.com/fuel-calculator)
 
 ---
 
-# Crew & Flight Duty Tools
+# Aircraft Cost Tools
 
-## EASA FTL Calculator
+## Aircraft Operating Cost Calculator
 
-Flight Time Limitation calculations help operators determine whether planned crew duties remain within applicable duty and rest requirements.
+Calculate the estimated **cost of operating an aircraft per flight hour**.
 
-FTL calculations may depend on factors including:
+The calculator separates aircraft costs into variable and fixed expenses.
 
-* duty start time
-* number of sectors
-* acclimatisation
-* reporting time
-* planned FDP
-* extensions
-* split duty
-* standby
-* previous duties
-* rest
-* disruptive schedules
+### Variable Costs
 
-Because flight duty regulations contain conditions and exceptions, users should always check the current applicable regulations and their operator approved scheme.
+Enter:
 
-Use the calculator:
+* Fuel burn per hour
+* Fuel price
+* Maintenance reserve
+* Engine program cost
+* Navigation charges
+* Landing charges
+* Ground handling
 
-[EASA FTL Calculator](https://flightstratix.com/ftl-calculator)
+### Fixed Costs
+
+Enter annual expenses including:
+
+* Crew
+* Insurance
+* Hangar
+* Aircraft management
+* Other fixed costs
+
+### Results
+
+Calculate:
+
+* Variable cost per hour
+* Fixed cost per hour
+* Total cost per flight hour
+* Annual variable cost
+* Annual fixed cost
+* Total annual operating cost
+* Break even charter rate
+
+Annual utilisation can be changed to see how flight hours affect the overall cost per hour.
+
+[Use the Aircraft Operating Cost Calculator →](https://flightstratix.com/aircraft-operating-cost-calculator)
+
+---
+
+# Private Jet Charter Tools
+
+## Private Jet Charter Cost Calculator
+
+Estimate **private jet charter costs between airports worldwide**.
+
+Enter:
+
+* Departure airport
+* Arrival airport
+* Aircraft category
+* Trip type
+* Passenger count
+* Hourly aircraft rate
+* Landing fees
+* Ground handling
+* Positioning
+* Crew overnight costs
+* Margin or commission
+
+Aircraft categories include:
+
+* Turboprop
+* Very Light Jet
+* Light Jet
+* Midsize Jet
+* Super Midsize Jet
+* Heavy Jet
+* Ultra Long Range Jet
+* VIP Airliner
+
+The calculator estimates route distance and flight time and uses the selected aircraft category to calculate an indicative charter price.
+
+Actual charter prices vary by operator, aircraft availability, positioning, airport charges, fuel prices, demand and operational requirements.
+
+[Use the Private Jet Charter Cost Calculator →](https://flightstratix.com/private-jet-charter-cost-calculator)
+
+---
+
+## Free Charter Quote Generator
+
+Create an aviation charter quotation directly in your browser.
+
+Use the generator to prepare a professional charter quote containing information such as:
+
+* Client details
+* Flight information
+* Aircraft
+* Route
+* Passenger information
+* Pricing
+* Additional charges
+* Quote terms
+
+The tool is intended for charter operators, brokers and aviation businesses that need to create a quick client quotation without building one manually from scratch.
+
+[Use the Charter Quote Generator →](https://flightstratix.com/charter-quote-generator)
+
+---
+
+## Free Charter Invoice Generator
+
+Create aviation and charter invoices directly online.
+
+The invoice generator can be used to prepare an invoice containing:
+
+* Company details
+* Client information
+* Invoice number
+* Flight information
+* Routes
+* Services
+* Charges
+* Taxes
+* Payment information
+* Total amount
+
+This can be useful for smaller charter businesses and aviation teams that need to create an invoice quickly without dedicated billing software.
+
+[Use the Charter Invoice Generator →](https://flightstratix.com/charter-invoice-generator)
+
+---
+
+# Who Are These Aviation Tools For?
+
+The tools are intended for people working across aviation, including:
+
+### Pilots
+
+Use E6B, weather, crosswind, weight and balance, climb and descent, fuel and flight time calculations.
+
+### Flight Dispatchers
+
+Check routes, airport information, weather, NOTAMs, fuel, flight times and crew duty information.
+
+### Charter Operators
+
+Estimate aircraft operating costs, charter prices, flight times and create quotations and invoices.
+
+### Charter Brokers
+
+Estimate charter costs and prepare client quotations.
+
+### Trip Support Companies
+
+Use airport, fuel, weather, NOTAM and flight planning tools when coordinating trips.
+
+### Flight Departments
+
+Calculate aircraft costs, flight times, fuel, aircraft loading and operational information.
+
+### Aircraft Owners & Management Companies
+
+Estimate annual aircraft expenses, hourly operating costs and break even rates.
+
+### Aviation Students
+
+Use the calculators to understand aviation formulas, flight planning and operational calculations.
+
+---
+
+# Tool Categories
+
+## Flight Planning
+
+* [Flight Time Calculator](https://flightstratix.com/flight-time-calculator)
+* [E6B Calculator](https://flightstratix.com/e6b-calculator)
+* [Climb & Descent Calculator](https://flightstratix.com/climb-descent-calculator)
+* [Crosswind Calculator](https://flightstratix.com/crosswind-calculator)
+
+## Weather & Airport Information
+
+* [METAR & TAF Decoder](https://flightstratix.com/aviation-weather-metar-taf-decoder)
+* [NOTAM Decoder](https://flightstratix.com/notam-decoder)
+* [Airport Lookup](https://flightstratix.com/airport-lookup)
+
+## Aircraft
+
+* [Weight & Balance Calculator](https://flightstratix.com/weight-balance-calculator)
+* [Aviation Fuel Calculator](https://flightstratix.com/fuel-calculator)
+* [Aircraft Operating Cost Calculator](https://flightstratix.com/aircraft-operating-cost-calculator)
+
+## Crew & Compliance
+
+* [FTL Calculator](https://flightstratix.com/ftl-calculator)
+
+## Charter & Commercial
+
+* [Private Jet Charter Cost Calculator](https://flightstratix.com/private-jet-charter-cost-calculator)
+* [Charter Quote Generator](https://flightstratix.com/charter-quote-generator)
+* [Charter Invoice Generator](https://flightstratix.com/charter-invoice-generator)
 
 ---
 
 # Calculation Methodology
 
-We want the calculations behind these tools to be understandable rather than hidden behind a result.
+The goal of this repository is not simply to link to calculators.
 
-Documentation for individual tools can be stored inside the repository:
+We also want to document how common aviation calculations work.
+
+Documentation should be maintained under:
 
 ```text
 docs/
 ├── flight-time-calculator.md
-├── airport-lookup.md
 ├── aviation-fuel-calculator.md
-├── weight-and-balance.md
-├── easa-ftl-calculator.md
-└── crosswind-calculator.md
+├── ftl-calculator.md
+├── weight-balance-calculator.md
+├── climb-descent-calculator.md
+├── crosswind-calculator.md
+├── e6b-calculator.md
+├── aircraft-operating-cost-calculator.md
+├── private-jet-charter-cost-calculator.md
+├── charter-quote-generator.md
+├── charter-invoice-generator.md
+├── notam-decoder.md
+├── metar-taf-decoder.md
+└── airport-lookup.md
 ```
 
-Each methodology page should explain:
+Each technical document should explain:
 
-1. What the calculator does
+1. What the tool calculates
 2. Required inputs
-3. Formula or calculation method
+3. Formulas
 4. Assumptions
-5. Worked examples
+5. Example calculations
 6. Limitations
-7. Regulatory references where applicable
-8. Date of the latest technical review
+7. Data sources
+8. Regulatory references where relevant
+9. Date of technical review
 
 ---
 
-# Worked Examples
+# Regulatory & Aviation Sources
 
-## Flight Time Example
-
-Example:
-
-```text
-Distance: 600 NM
-Average Ground Speed: 400 KT
-
-Estimated Flight Time:
-600 ÷ 400 = 1.5 hours
-
-Estimated Flight Time:
-1 hour 30 minutes
-```
-
-Real flight time can differ because of winds, ATC routing, climb, descent and airport procedures.
-
----
-
-## Crosswind Example
-
-Example:
-
-```text
-Runway Heading: 090°
-Wind: 120° / 20 KT
-
-Difference:
-30°
-
-Crosswind:
-20 × sin(30°)
-
-Crosswind:
-10 KT
-```
-
-The example is for explanation only. Operational decisions should use current weather information, approved aircraft limitations and operator procedures.
-
----
-
-## Weight & Balance Example
-
-Example:
-
-```text
-Weight: 1,000 kg
-Arm: 2.5 m
-
-Moment:
-1,000 × 2.5
-
-Moment:
-2,500 kg·m
-```
-
-Individual moments are combined to calculate the aircraft's total moment and centre of gravity.
-
----
-
-# Regulatory & Technical Sources
-
-Where a calculator relates to regulated flight operations, methodology should refer directly to current primary sources.
-
-Useful authorities include:
+Operational aviation information should be checked against current official sources.
 
 ## EASA
 
 European Union Aviation Safety Agency
 
-Relevant areas can include:
+https://www.easa.europa.eu/
+
+Relevant areas include:
 
 * Air Operations
 * ORO.FTL
-* Certification Specifications for Flight Time Limitations
-
-Official website:
-
-https://www.easa.europa.eu/
+* Certification Specifications
+* Flight Time Limitations
 
 ## FAA
 
 Federal Aviation Administration
 
-Relevant references may include:
+https://www.faa.gov/
+
+Relevant material includes:
 
 * Federal Aviation Regulations
+* Aeronautical Information Manual
+* Advisory Circulars
 * Part 91
 * Part 117
 * Part 121
 * Part 135
-* Aeronautical Information Manual
-* Advisory Circulars
-
-Official website:
-
-https://www.faa.gov/
 
 ## ICAO
 
 International Civil Aviation Organization
 
-ICAO publishes international Standards and Recommended Practices covering many areas of international aviation.
-
-Official website:
-
 https://www.icao.int/
 
-Always confirm that the current version of the applicable regulation or publication is being used.
+ICAO publishes international Standards and Recommended Practices covering flight operations, aerodromes, meteorology and other areas of international aviation.
+
+## NOAA Aviation Weather
+
+https://aviationweather.gov/
+
+Used for aviation weather information including METAR and TAF data.
 
 ---
 
 # Safety Notice
 
-These aviation tools are provided for planning, educational and operational support purposes.
+These free aviation tools are provided for calculation, planning, training and reference purposes.
 
 They do not replace:
 
-* approved aircraft flight manuals
-* operator manuals
-* operational control procedures
-* regulatory requirements
-* approved FTL schemes
-* official weather information
-* NOTAMs
-* flight planning systems
-* pilot or dispatcher judgement
+* Aircraft Flight Manuals
+* Pilot Operating Handbooks
+* Operator Operations Manuals
+* Approved flight planning systems
+* Official weather briefings
+* Official NOTAM sources
+* Approved FTL schemes
+* Aircraft specific performance data
+* National aviation regulations
+* Operational control procedures
+* Pilot or dispatcher judgement
 
-Users remain responsible for checking calculations against the documentation, regulations and procedures applicable to their operation.
-
-If you identify a calculation issue, outdated regulation or incorrect assumption, please open a GitHub issue.
+Always verify operational information using current approved sources before making flight related decisions.
 
 ---
 
-# Report an Issue
-
-Aviation regulations, data and operational requirements change.
+# Report a Problem
 
 If you find:
 
-* incorrect calculations
-* outdated regulatory information
-* incorrect airport information
-* broken links
-* unclear methodology
-* calculation edge cases
+* An incorrect calculation
+* Outdated aviation information
+* Incorrect airport data
+* A broken link
+* An incorrect formula
+* An unusual calculation result
+* A missing aviation tool
 
-please create an issue in this repository.
+please open a GitHub issue.
 
-When reporting a calculation issue, include where possible:
+For calculation problems, include:
 
 ```text
 Tool:
-Input:
+Input values:
 Expected result:
 Actual result:
-Regulation or reference:
-Additional notes:
+Source or regulation:
+Additional information:
 ```
-
-This makes the issue easier to reproduce and review.
 
 ---
 
 # Contributing
 
-Contributions and technical feedback are welcome.
+Contributions, corrections and aviation industry feedback are welcome.
 
 You can contribute by:
 
-* reporting calculation problems
-* suggesting aviation tools
-* improving documentation
-* providing test cases
-* identifying outdated references
-* suggesting formula corrections
-* improving worked examples
-* submitting code improvements
+* Reporting calculation problems
+* Suggesting new aviation tools
+* Adding test cases
+* Improving formulas
+* Improving documentation
+* Correcting outdated references
+* Adding worked examples
+* Contributing aviation utility code
+* Reviewing calculation methodology
 
-Before making a major change, please open an issue explaining what you would like to change.
-
----
-
-# Planned Aviation Tools
-
-Possible additions to the collection include:
-
-## Flight Planning
-
-* Great Circle Distance Calculator
-* Climb Calculator
-* Descent Calculator
-* Top of Descent Calculator
-* True Airspeed Calculator
-* Ground Speed Calculator
-* Wind Correction Calculator
-
-## Weather
-
-* METAR Decoder
-* TAF Decoder
-* Density Altitude Calculator
-* Pressure Altitude Calculator
-* Cloud Base Calculator
-
-## Crew
-
-* Crew Duty Calculator
-* Rest Calculator
-* FAA Part 117 Calculator
-* Duty Period Calculator
-
-## Aircraft
-
-* Aircraft Registration Lookup
-* Fuel Conversion Calculator
-* Payload Calculator
-* Takeoff Performance Reference Tools
-
-## Dispatch & Operations
-
-* NOTAM Decoder
-* ICAO Flight Plan Tools
-* Airport Code Converter
-* UTC Time Converter
-* Aviation Unit Converter
-
-If there is an aviation calculator you would like to see added, open an issue.
+Please open an issue before making major changes.
 
 ---
 
 # Repository Structure
-
-The repository can be organised as follows:
 
 ```text
 free-aviation-tools/
@@ -500,82 +857,92 @@ free-aviation-tools/
 ├── CONTRIBUTING.md
 │
 ├── calculators/
-│   ├── crosswind/
 │   ├── flight-time/
+│   ├── crosswind/
+│   ├── e6b/
+│   ├── climb-descent/
 │   ├── fuel/
 │   └── aviation-units/
 │
 ├── docs/
 │   ├── flight-time-calculator.md
-│   ├── airport-lookup.md
 │   ├── aviation-fuel-calculator.md
-│   ├── weight-and-balance.md
-│   ├── easa-ftl-calculator.md
-│   └── crosswind-calculator.md
+│   ├── ftl-calculator.md
+│   ├── weight-balance-calculator.md
+│   ├── climb-descent-calculator.md
+│   ├── crosswind-calculator.md
+│   ├── e6b-calculator.md
+│   ├── aircraft-operating-cost-calculator.md
+│   ├── private-jet-charter-cost-calculator.md
+│   ├── charter-quote-generator.md
+│   ├── charter-invoice-generator.md
+│   ├── notam-decoder.md
+│   ├── metar-taf-decoder.md
+│   └── airport-lookup.md
 │
 ├── examples/
-│   ├── flight-time-example.md
-│   ├── crosswind-example.md
-│   └── weight-and-balance-example.md
+│   ├── flight-time.md
+│   ├── crosswind.md
+│   ├── fuel.md
+│   ├── weight-balance.md
+│   └── operating-cost.md
 │
 └── tests/
 ```
 
 ---
 
-# Why This Repository Exists
+# Why We Built These Free Aviation Tools
 
-Aviation operations teams still carry out a surprising number of everyday calculations using spreadsheets, manual formulas and disconnected websites.
+Aviation professionals still perform many everyday calculations across spreadsheets, physical flight computers, separate websites and internal tools.
 
-We wanted to make commonly used aviation calculations easier to access and easier to understand.
+The aim of this project is simple:
 
-Rather than hiding how a result is produced, the goal of this repository is to gradually document the formulas, assumptions, examples and references behind the tools.
+**Make useful aviation calculations easier to access and easier to understand.**
 
-The online calculators remain free to use.
+The collection covers different parts of aviation operations, from pilot flight planning calculations to dispatch, aircraft economics and charter administration.
+
+The tools are available online without requiring users to create an account.
 
 ---
 
 # About FlightStratix
 
-[FlightStratix](https://flightstratix.com/) is an aviation operations platform for charter operators, trip support companies, FBOs and flight departments.
+These free aviation tools are maintained by [FlightStratix](https://flightstratix.com/).
 
-FlightStratix connects operational and commercial information around the trip, including areas such as:
+FlightStratix is flight operations software for private aviation teams including:
 
-* trip management
-* aircraft scheduling
-* crew scheduling
-* FTL checks
-* quotations
-* services
-* passengers
-* documents
-* invoicing
-* operational records
+* Charter operators
+* Aircraft operators
+* NSOPs
+* Trip support companies
+* FBOs
+* Flight departments
 
-The software platform is separate from the free aviation tools in this repository.
+The platform connects the operational workflow around a trip, including:
 
-Learn more:
+* Requests
+* Quotations
+* Trips
+* Aircraft
+* Crew
+* FTL
+* Passengers
+* Services
+* Documents
+* Compliance
+* Invoices
+* Operational actuals
 
-[FlightStratix Aviation Operations Platform](https://flightstratix.com/)
+The FlightStratix platform is separate from the free aviation tools published above.
 
----
-
-# Maintained By
-
-**FlightStratix**
-
-Aviation operations software and free aviation tools for flight operations teams.
-
-Website:
-https://flightstratix.com/
-
-GitHub issues should be used for calculator bugs, technical questions and contribution requests.
+[Visit FlightStratix →](https://flightstratix.com/)
 
 ---
 
 # License
 
-Add the appropriate open source licence for any code published in this repository.
+Add an appropriate open source licence for code published in this repository.
 
 For example:
 
@@ -583,10 +950,20 @@ For example:
 MIT License
 ```
 
-Individual aviation data sources may have their own licensing or usage conditions and should be documented separately where applicable.
+Individual datasets and external aviation information may have separate licensing and usage conditions.
 
 ---
 
-⭐ If these free aviation tools are useful to you, consider starring the repository.
+## Support the Project
 
-It helps other pilots, dispatchers and aviation professionals discover the project.
+If these **free aviation tools and calculators** are useful to you:
+
+⭐ Star the repository
+
+🔗 Share it with another pilot, dispatcher or aviation professional
+
+🐛 Report errors through GitHub Issues
+
+💡 Suggest another aviation calculator
+
+Contributions and technical aviation feedback are welcome.
